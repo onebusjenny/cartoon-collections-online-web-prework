@@ -12,12 +12,12 @@ end
 
 def long_planeteer_calls(short_words)
   short_words = ["puff", "go", "two"]
-  
-  short_words.select do |short_words|
-  
+  short_words.any? do |short_word|
+  short_word.length > 4
 end
+  
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+
+def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
